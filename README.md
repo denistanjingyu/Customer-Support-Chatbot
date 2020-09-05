@@ -69,4 +69,5 @@ Create a command line interface chatbot
 
 ## Code and Resources Used
 **Python:** Version 3.7.4
+
 **Packages:** nltk, numpy, os, torch, random

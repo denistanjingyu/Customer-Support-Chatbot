@@ -20,10 +20,13 @@ Table of Contents :bookmark_tabs:
 ## Overview
 ### Dataset Creation
 Create a JSON file containing the intents of the customers
+
 Metadata:
 1) Patterns: How the customer will type and enquire
 2) Responses: How the chatbot will respond
 3) Tag: Single word to categorize the patterns
+
+![image](https://user-images.githubusercontent.com/45563371/92312895-f2577580-eff7-11ea-9db3-9cb561dbeb86.png)
 
 ### Natural Language Processing Pipeline
 Create a script to store the NLP techniques as functions
@@ -43,6 +46,9 @@ Application of natural language processing pipeline to dataset (corpus)
     - Addtag to y training data
   
 ### Model Training
+
+![image](https://user-images.githubusercontent.com/45563371/92312921-3185c680-eff8-11ea-9572-d5922f690f0e.png)
+
 Define a simple artificial neural network model architecture using PyTorch
 1) Define the layers and number of classes
     - 1 input layer, 1 hidden layer, 1 output layer

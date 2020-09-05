@@ -35,7 +35,9 @@ Application of natural language processing pipeline to dataset (corpus)
 Define a simple artificial neural network model architecture using PyTorch
 1) Define the layers and number of classes
     - 1 input layer, 1 hidden layer, 1 output layer
-    - Activation function: rectified linear unit (ReLU)
+    - Activation function
+        - Hidden layer: rectified linear unit (ReLU)
+        - Output layer: softmax
     - 7 classes to predict
 2) Define the hyperparameters
     - batch_size = 8
@@ -44,5 +46,16 @@ Define a simple artificial neural network model architecture using PyTorch
     - n_epochs = 1500
     - Optimizer = Adam
     - Loss = CrossEntropyLoss
+3) Final loss
+    - CrossEntropyLoss = 0.0001
+    - No further tuning needed (Not the focus of this project)
     
-  * Quite straightforward prediction and do not require further tuning
+### Chatbot Creation
+Create a command line interface chatbot
+1) Start by getting input in the form of a sentence from user
+2) Define the exit condition for the loop. In this case it will be "quit".
+3) Preprocess the sentence using tokenization, stemming and bag of words modeling
+4) Output a prediction from the model
+5) Define a probability threshold for response, if not chatbot will return "I do not understand..."
+
+![image](https://user-images.githubusercontent.com/45563371/92312702-d2bf4d80-eff5-11ea-9b0c-b097637a05b2.png)

@@ -28,20 +28,21 @@ Application of natural language processing pipeline to dataset (corpus)
 4) Loop through corpus and applying preprocessing techniques
 5) Sort all the words and take only the unique words
 6) Create 2 lists to store training data after preprocessing
-  - Add bag of words to X training data 
-  - Addtag to y training data
+    - Add bag of words to X training data 
+    - Addtag to y training data
   
 ### Model Training
 Define a simple artificial neural network model architecture using PyTorch
 1) Define the layers and number of classes
-  - 1 input layer, 1 hidden layer, 1 output layer
-  - Activation function: rectified linear unit (ReLU)
-  - 7 classes to predict
+    - 1 input layer, 1 hidden layer, 1 output layer
+    - Activation function: rectified linear unit (ReLU)
+    - 7 classes to predict
 2) Define the hyperparameters
-  - batch_size = 8
-  - hidden_size = 8
-  - learning_rate = 0.001
-  - n_epochs = 1500
-  - Optimizer = Adam
-  - Loss = CrossEntropyLoss
+    - batch_size = 8
+    - hidden_size = 8
+    - learning_rate = 0.001
+    - n_epochs = 1500
+    - Optimizer = Adam
+    - Loss = CrossEntropyLoss
+    
   * Quite straightforward prediction and do not require further tuning

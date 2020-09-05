@@ -4,9 +4,13 @@
 
 Table of Contents :bookmark_tabs:
 =================
-- [Project Objectives](#scope-of-project)
-- [Overview](#abstract-of-research-paper)
-- [Research poster](#research-poster)
+- [Project Objectives](#project-objectives)
+- [Overview](#overview)
+    - [Dataset Creation](#dataset-creation)
+    - [Natural Language Processing Pipeline](#natural-language-processing-pipeline)
+    - [Dataset Preparation](#dataset-preparation)
+    - [Model Training](#model-training)
+    - [Chatbot Creation](#chatbot-creation)
 - [Code and Resources Used](#code-and-resources-used)
 
 ## Project Objectives

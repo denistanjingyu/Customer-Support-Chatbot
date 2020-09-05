@@ -2,6 +2,13 @@
 
 ![1_9I6EIL5NG20A8se5afVmOg](https://user-images.githubusercontent.com/45563371/92311742-7a378280-efec-11ea-9932-63d0b70495c9.gif)
 
+Table of Contents :bookmark_tabs:
+=================
+- [Project Objectives](#scope-of-project)
+- [Overview](#abstract-of-research-paper)
+- [Research poster](#research-poster)
+- [Code and Resources Used](#code-and-resources-used)
+
 ## Project Objectives
 1) Apply natural language processing concepts in the context of a chatbot
 2) Implement an artificial neural network using PyTorch
@@ -59,3 +66,7 @@ Create a command line interface chatbot
 5) Define a probability threshold for response, if not chatbot will return "I do not understand..."
 
 ![image](https://user-images.githubusercontent.com/45563371/92312702-d2bf4d80-eff5-11ea-9b0c-b097637a05b2.png)
+
+## Code and Resources Used
+**Python:** Version 3.7.4
+**Packages:** nltk, numpy, os, torch, random
